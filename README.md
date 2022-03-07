@@ -6,10 +6,9 @@ This project done by David Serrano for his Final Bachelor Thesis consist in a sy
 
 <a href="https://upcommons.upc.edu/handle/2117/356904" target="_blank">UPCommons</a>
 
-### 1_Tracker.ipynb
+#### 1_Tracker.ipynb
+
+This file analyzes the video sequences, finds candidates of HotSpots, track them and links them in the neighboring frames. It also permits labeling them manually between NoHotSpot, HotSpot and Anomaly to later on implement a classifier to do it automatically.
 
 
-The system first applies a number of techniques (TopHat, Otsu Binarization...) to obtain all the abnormal visible events. Then using a ResNet50, 640 features are obtained for every candidate and sequentially classified between the 3 classes using a Machine Learning classifier (SVM and XGBoost).
-
-https://user-images.githubusercontent.com/61697910/132984390-1192729a-2be8-4bd0-9388-825d314e36d5.mp4
 
