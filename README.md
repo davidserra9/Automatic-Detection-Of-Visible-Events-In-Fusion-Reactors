@@ -6,6 +6,8 @@ This project done by David Serrano for his Final Bachelor Thesis consist in a sy
 
 <a href="https://upcommons.upc.edu/handle/2117/356904" target="_blank">UPCommons</a>
 
+https://user-images.githubusercontent.com/61697910/132984390-1192729a-2be8-4bd0-9388-825d314e36d5.mp4
+
 #### 1_Tracker.ipynb
 
 This file analyzes the video sequences, finds candidates of HotSpots, track them and links them in the neighboring frames. It also permits labeling them manually between NoHotSpot, HotSpot and Anomaly to later on implement a classifier to do it automatically.
