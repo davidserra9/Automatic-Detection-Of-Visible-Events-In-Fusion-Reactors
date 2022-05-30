@@ -8,6 +8,17 @@ This project done by David Serrano for his Final Bachelor Thesis consist in a sy
 
 https://user-images.githubusercontent.com/61697910/132984390-1192729a-2be8-4bd0-9388-825d314e36d5.mp4
 
+## Citing the work
+```
+@mastersthesis{serrano2021automatic,
+  title={Automatic detection of visible events in fusion reactors with Deep Learning},
+  author={Serrano Lozano, David},
+  type={{B.S.} thesis},
+  year={2021},
+  school={Universitat Polit{\`e}cnica de Catalunya}
+}
+```
+## Explanatory files
 #### 1_Tracker.ipynb
 
 This file analyzes the video sequences, finds candidates of HotSpots, track them and links them in the neighboring frames. It also permits labeling them manually between NoHotSpot, HotSpot and Anomaly to later on implement a classifier to do it automatically.
